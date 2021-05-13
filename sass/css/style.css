@@ -285,7 +285,7 @@ h6 {
 
 #arriba {
   text-align: center;
-  background-image: linear-gradient(315deg, #ebbe9b 0%, #e7a977 74%); }
+  background-color: #FFEFD5; }
 
 #ayuda {
   display: flex;
@@ -310,15 +310,7 @@ h6 {
   color: black; }
 
 #menu {
-  background-color: #FFEFD5; }
-
-.icono {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem; }
+  background-color: #e7a977; }
 
 /*--------CODIGOS DE FORMA----------*/
 #centrar {
