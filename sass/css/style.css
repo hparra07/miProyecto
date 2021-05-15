@@ -290,6 +290,12 @@ footer {
   display: flex;
   text-align: center; }
 
+#respuestas {
+  margin-left: 400px;
+  margin-right: 400px;
+  display: flex;
+  text-align: center; }
+
 #margen {
   margin-top: 50px; }
 
