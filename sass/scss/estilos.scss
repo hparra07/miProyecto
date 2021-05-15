@@ -194,6 +194,10 @@ h6{
     }
 }
 /*--------------TEXTOS---------------*/
+p{
+    color:black;
+    font-size: 15px;
+}
 #derechos{
     display: flex;
     justify-content: center;
@@ -229,6 +233,19 @@ h6{
     background-color: #e7a977;
 }
 /*--------CODIGOS DE FORMA----------*/
+body{
+    position: relative;
+    padding-bottom: 500px;
+    min-height: 1100px;
+}
+footer{
+    background-image: linear-gradient(to bottom, #FFEFD5, #e7a977);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
 #centrar{
     display: flex;
     justify-content: center;
@@ -245,13 +262,39 @@ h6{
 #margen{
     margin-top: 50px;
 }
-/* MIXINS */
+.lista{
+    list-style: none;
+}
+.lista_ico{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.centrar ul li{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 30px;
+}
+/*-----------MIXINS-----------*/
 @mixin tamaños($margin-top, $margin-bottom){
     margin-top: $margin-top;
     margin-bottom: $margin-bottom;
 }
 #posicion{
     @include tamaños(50px, 50px);
+}
+/*--------BOTONES--------*/
+#boton{
+    margin-bottom: 10px;
+    color: #28a745;
+    border-color: #28a745;
+    #boton:hover {
+        color: #fff;
+        background-color: #28a745;
+        border-color: #28a745;
+    }
 }
 /*-------IMAGENES--------*/
 #imagen{
@@ -264,4 +307,21 @@ h6{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+figcaption{
+    color:black;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
+figure{
+    img{
+    border-radius: 20px;
+    transition: -webkit-transform 0.1s ease-in-out 0.1s;
+    box-shadow: #F09044 5px 5px 10px;
+    }
+}
+figure img:hover{
+    transform:scale(1.2);
 }
