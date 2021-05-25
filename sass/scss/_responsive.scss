@@ -4,17 +4,29 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
   body{
     background-color: white;
   }
+  .imagen{
+    display: flex;
+    flex-direction: column;
+  }
 }
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
   body{
     background-color: white;
   }
+  .imagen{
+    display: flex;
+    flex-direction: column;
+  }
 }
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
   body{
     background-color: white;
+  }
+  .imagen{
+    display: flex;
+    flex-direction: column;
   }
 }
 /* iPads (portrait and landscape) ----------- */
@@ -51,5 +63,9 @@ and (min-device-width : 320px) and (max-device-width : 480px) {
 @media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5) {
   body{
     background-color: white;
+  }
+  .imagen{
+    display: flex;
+    flex-direction: column;
   }
 }

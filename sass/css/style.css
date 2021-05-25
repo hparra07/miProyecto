@@ -9,17 +9,26 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fie
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body {
-    background-color: white; } }
+    background-color: white; }
+  .imagen {
+    display: flex;
+    flex-direction: column; } }
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) {
   body {
-    background-color: white; } }
+    background-color: white; }
+  .imagen {
+    display: flex;
+    flex-direction: column; } }
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 320px) {
   body {
-    background-color: white; } }
+    background-color: white; }
+  .imagen {
+    display: flex;
+    flex-direction: column; } }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -49,7 +58,10 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fie
 /* iPhone 4 ----------- */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   body {
-    background-color: white; } }
+    background-color: white; }
+  .imagen {
+    display: flex;
+    flex-direction: column; } }
 
 /* ----- TITULOS ----- */
 h1 {
