@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +13,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed" id="menu">
-            <a href="index.html" class="navbar-brand" id="ninguno"><img src="./img/descarga.png" alt="logo" height="80px"></img></a>
+        <nav class="navbar navbar-expand-md navbar-dark" id="menu">
+            <a href="index.html" class="navbar-brand"><img src="./img/descarga.png" alt="logo" height="80px"></img></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -49,21 +49,54 @@
     <main role="main">
         <div class="search-container">
             <div class="search">
-                <h1>Busca. Reserva. Viaja</h1>
+                <h1>Buscá. Reservá. Viajá.</h1>
                 <div class="types">
-                    <label for="">Ida</label>
-                        <input type="radio" name="" id="">
-                    <label for="">Ida y Vuelta</label>
-                        <input type="radio" name="" id="">
-                    <label for="">Multidestinos</label>
-                    <input type="radio" name="" id="">
+                    <label for="ida">Ida</label>
+                        <input type="radio" name="ida" id="ida">
+                    <label for="ida-vuelta">Ida y Vuelta</label>
+                        <input type="radio" name="ida-vuelta" id="ida-vuelta">
+                    <label for="multidestinos">Multidestinos</label>
+                    <input type="radio" name="multidestinos" id="multidestinos">
+                </div>
+                <div class="form">
+                    <form class="needs-validation" validate>
+                        <div class="search-form">
+                            <div class="div1 mb-3">
+                                <label for="Origen">Origen</label>
+                                <input type="text" class="form-control input-form" id="origen" placeholder="Desde donde" value="" required>
+                            </div>
+                            <div class="div2 mb-3">
+                                <label for="Destino">Destino</label>
+                                <input type="text" class="form-control input-form" id="destino" placeholder="Hacia donde" value="" required>
+                            </div>
+                            <div class="div3 mb-3">
+                                <label for="Partida">Partida</label>
+                                <input type="date" class="form-control input-form" id="partida" value="" required>
+                            </div>
+                            <div class="div4 mb-3">
+                                <label for="Regreso">Regreso</label>
+                                <input type="date" class="form-control input-form" id="regreso" value="" required>
+                            </div>
+                            <div class="div5 mb-3">
+                                <label for="Pasajeros">Pasajeros</label>
+                                <input type="number" class="form-control input-form" id="Pasajeros" placeholder="Ingresa cantidad" value="1" required>
+                            </div>
+                            <div class="div6 mb-3">
+                                <label for="Destino">Clase</label>
+                                <input type="text" class="form-control input-form" id="destino" placeholder="Ej: Business" value="" required>
+                            </div>
+                            <div class="div7 mb-3">
+                                <button type="button" class="btn btn-dark">Buscar</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
         <div class="first">
             <div class="div1-first"> 
-                <h2 class="mb-3">Destinos top dentro de Argentina</h2>
-                <section class="text-center w-100">
+                <h2 class="mb-3">Destinos top de Argentina</h2>
+                <section class="w-75">
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -104,7 +137,7 @@
             </div>
             <div class="div2-first">
                 <h2 class="mb-3">Destinos top por el mundo</h2>
-                <section class="text-center w-100">
+                <section class="w-75">
                     <div id="carouselExampleCaptions2" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -144,100 +177,52 @@
                 </section>
             </div>
         </div>
-        <section class="container-fluid">
-            <h1>DESTACADOS DE LA SEMANA</h1>
-            <div class="container">
-                <div class="portfolio-menu mt-2 mb-4"></div>
-                <div class="portfolio-item row">
-                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
-                        <figure>
-                            <img src="imagenes/bananas.jpg" alt="" width="200px" height="150px">
-                            <figcaption><p>Banana (50% OFF)</p></figcaption>
-                        </figure>
-                    </div>
-                    <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-                        <figure class="imagen">
-                            <img src="imagenes/cebolla_morada.jpg" alt="" width="200px" height="150px">
-                            <figcaption><p>Cebolla morada (20% OFF)</p></figcaption>
-                        </figure>
-                    </div>
-                    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
-                        <figure class="imagen">
-                            <img src="imagenes/morron_rojo.jpg" alt="" width="200px" height="150px">
-                            <figcaption><p>Morron rojo (25% OFF)</p></figcaption>
-                        </figure>
-                    </div>
-                    <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-                        <figure class="imagen">
-                            <img src="imagenes/choclo.jpg" alt="" width="200px" height="150px">
-                            <figcaption><p>Choclo amarillo (2x1)</p></figcaption>
-                        </figure>
-                    </div>
-                    <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-                        <figure class="imagen">
-                            <img src="imagenes/huevos_blancos.jpg" alt="" width="200px" height="150px">
-                            <figcaption><p>Maple de huevos blancos (2x1)</p></figcaption>
-                        </figure>
-                    </div>
-                    <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-                        <figure class="imagen">
-                            <img src="imagenes/papa_negra.jpg" alt="" width="200px" height="150px">
-                            <figcaption><p>Papa negra (5kg x 200$)</p></figcaption>
-                        </figure>
-                    </div>
-                    <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-                        <figure class="imagen">
-                            <img src="imagenes/tomate_perita.jpg" alt="" width="200px" height="150px">
-                            <figcaption><p>Tomate perita(2kg x 100$)</p></figcaption>
-                        </figure>
-                    </div>
-                    <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-                        <figure class="imagen">
-                            <img src="imagenes/palta.jpg" alt="" width="200px" height="150px">
-                            <figcaption><p>Palta (10% OFF)</p></figcaption>
-                        </figure>
-                    </div>
-                    </div>
+        <section class="section-two">
+            <div class="promotions">
+                <div class="div1-promotions">
+                    <img src="./img/previaje.jpg" alt="previaje-promo" height="250px">
+                </div>
+                <div class="div2-promotions">
+                    <img src="./img/promo.jpg" alt="promo-cuotas" height="250px">
+                </div>
+                <div class="div3-promotions">
+                    <img src="./img/black-friday.gif" alt="black-friday" height="250px">
                 </div>
                 </div>
         </section>
+        <section class="suscribe-form">
+              <form>
+                  <div>
+                      <label for="suscribite">Ofertas excluisvas en tu mail</label>
+                      <input type="mail" placeholder="Ingresa tu mail" required>
+                      <button type="submit" class="btn btn-outline-dark">Suscribirme</button>
+                  </div>
+                  <div>
+                      <p>Recibí de primera mano nuestras ofertas y beneficios exclusivos.</p>
+                  </div>
+              </form>
+        </section>
     </main>
-    <footer id="final">
+    <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-md-2 mx-auto">
-                    <h5 class="title mb-4 mt-3 font-bold">INFORMACIÓN</h5>
-                        <ul class="lista">
-                            <li>howard.parra95@gmail.com</li>
-                            <li>Teléfono 1126856603</li>
-                            <li>Lun a Dom de 9 a 20</li>
-                            <li>Bulnes 1431, CABA, Buenos Aires</li>
-                        </ul>
-                </div>
-                <div class="col-md-2 mx-auto">
-                    <h5 class="title mb-4 mt-3 font-bold">CONTÁCTANOS</h5>
-                        <ul class="lista_ico">
-                            <li><i class="fab fa-facebook fa-3x"></i></li>
-                            <li><i class="fab fa-instagram fa-3x"></i></li>
-                            <li><i class="fab fa-whatsapp fa-3x"></i></li>
-                        </ul>
-                </div>
-                <div class="col-md-2 mx-auto">
-                    <h5 class="title mb-4 mt-3 font-bold ">ACEPTAMOS</h5>
-                        <ul class="lista_ico">
-                            <li><i class="fab fa-cc-visa fa-3x"></i></li>                                             
-                            <li><i class="fab fa-cc-amex fa-3x"></i></li>
-                            <li><i class="fab fa-cc-mastercard fa-3x"></i></li>
-                        </ul>
-                </div>
-            </div>
-        </div><hr>
-        <div id="derechos">
+            <h5 class="mb-4 mt-3">ENCONTRANOS</h5>
+            <ul class="lista_ico">
+                <li><a href="#"><img src="./img/fb4.png" alt="fb4"></a></li>
+                <li><a href="#"><img src="./img/ig4.png" alt="ig4"></a></li>
+                <li><a href="#"><img src="./img/wp4.png" alt="wp4"></a></li>
+                <li><a href="#"><img src="./img/ld4.png" alt="ld4"></a></li>
+                <li><a href="#"><img src="./img/tw4.png" alt="tw4"></a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="derechos">
             <p>&copy; 2021 All Rights Reserved &reg; Howard's Services & Co.</p>
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/a0d6ad12f7.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
