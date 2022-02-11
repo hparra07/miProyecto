@@ -694,7 +694,7 @@ figure img:hover {
 
 .suscribe-form{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background: #90e0ef;
     padding: 25px;
     margin-top: 50px;
