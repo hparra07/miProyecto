@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,54 +7,52 @@
     <title>MiPrimerProyecto | Carrito</title>
     <meta name="description" content="Tenemos frutas, verduras y productos orgánicos preparados especialmente para vos, de primera calidad, además contamos con delivery y si te registrás, tenés un 10% OFF en tu primera compra">
     <meta name="keywords" content="VERDURAS, FRUTAS, COMPRA, CARRITO, DATOS">
-    <link rel="shorcut icon" href="../img/vegetales.png" type="image/x-icon"/>
+    <link rel="shorcut icon" href="../img/logo.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
     <header>
-        <div id="arriba">¡<strong>REGISTRÁTE</strong> Y OBTENÉ UN 10% EN TU PRIMERA COMPRA!</div>
-        <nav class="navbar navbar-expand-md navbar-dark fixed" id="menu">
-            <a href="../index.html" class="navbar-brand" id="ninguno"><img src="../img/vegetales.png" alt="" height="40px"> MiPrimerProyecto</img>
-            </a>
+        <nav class="navbar navbar-expand-md navbar-dark" id="menu">
+            <a href="../index.html" class="navbar-brand"><img src="../img/descarga.png" alt="logo" height="80px"></img></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../index.html" id="ninguno">INICIO</a>
+                <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="ninguno" href="./flights.html"><img src="../img/flight.png" alt="vuelos" height="40px"> VUELOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./about.html" id="ninguno">NOSOTROS</a>
+                        <a class="ninguno" href="./packs.html"> <img src="../img/package.png" alt="" height="40px"> PAQUETES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./products.html" id="ninguno">PRODUCTOS</a>
+                        <a class="ninguno " href="./cars.html"><img src="../img/cars.png" alt="" height="40px"> AUTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./promotions.html" id="ninguno">PROMOCIONES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./help.html" id="ninguno">AYUDA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./cart.html" id="ninguno">CARRITO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./signIn.html" id="ninguno">INICIA SESIÓN</a>
+                        <a class="ninguno" href="./help.html"><img src="../img/help.png" alt="" height="40px"> AYUDA</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control mr-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
+                <section class="d-flex">
+                    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll"> 
+                        <li class="nav-item">
+                            <a class="ninguno" href="./cart.html"><img src="../img/purchase.png" alt="" height="40px"> TU COMPRA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="ninguno" href="./signIn.html"><img src="../img/login.png" alt="" height="40px"> INICIA SESION</a>
+                        </li>
+                    </ul>
+                </section>
             </div>
         </nav>
     </header>
-    <main>
-        <h1>Mi Compra</h1>
-        <section class="container" id="posicion">
+    <main role="main">
+        <div class="banner">
+            <div class="bar-banner">
+                <h1>Mi compra</h1>
+            </div>
+        </div>
+        <section class="container py-4">
             <div class="row">
                 <div class="col-md-6 order-md-2 mb-4">
                     <h4 class="d-flex justify-content-between align-items-center mb-3">
@@ -65,22 +62,22 @@
                     <ul class="list-group mb-3">
                         <li class="list-group-item d-flex justify-content-between lh-condensed">
                             <div>
-                                <h6 class="my-0">Nombre producto</h6>
-                                <small class="text-muted">Cantidad x Kg</small>
+                                <h6 class="my-0">Vuelos</h6>
+                                <small class="text-muted">Descripción</small>
                             </div>
                             <span class="text-muted">$0.00</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between lh-condensed">
                             <div>
-                                <h6 class="my-0">Nombre producto</h6>
-                                <small class="text-muted">Cantidad x Kg</small>
+                                <h6 class="my-0">Alojamientos</h6>
+                                <small class="text-muted">Descripción</small>
                             </div>
                             <span class="text-muted">$0.00</span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between lh-condensed">
                             <div>
-                                <h6 class="my-0">Nombre producto</h6>
-                                <small class="text-muted">Cantidad x Kg</small>
+                                <h6 class="my-0">Autos</h6>
+                                <small class="text-muted">Descripción</small>
                             </div>
                             <span class="text-muted">$0.00</span>
                         </li>
@@ -100,7 +97,7 @@
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Código promocional">
                             <div class="input-group-append">
-                                <button class="btn btn-outline-success" type="submit">Validar</button>
+                                <button class="btn btn-outline-info" type="submit">Validar</button>
                             </div>
                         </div>
                     </form>
@@ -174,7 +171,7 @@
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label for="cc-name">Nombre del titular:</label>
-                                <input type="text" class="form-control" id="cc-name" placeholder="Ej: Howard Parra" required>
+                                <input type="text" class="form-control" id="cc-name" placeholder="Ej: Lionel Messi" required>
                                 <small class="text-muted">Nombre como figura en la tarjeta</small>
                             </div>
                             <div class="col-md-6 mb-3">
@@ -193,44 +190,25 @@
                             </div>
                         </div>
                         <hr class="mb-4">
-                        <button class="btn btn-lg btn-block btn-outline-success" type="submit">Continuar</button>
+                        <button class="btn btn-lg btn-block btn-outline-info" type="submit">Continuar</button>
                     </form>
                 </div>
             </div>
         </section>
     </main>
-    <footer id="final">
+    <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-md-2 mx-auto">
-                    <h5 class="title mb-4 mt-3 font-bold">INFORMACIÓN</h5>
-                    <ul class="lista">
-                        <li>howard.parra95@gmail.com</li>
-                        <li>Teléfono 1126856603</li>
-                        <li>Lun a Dom de 9 a 20</li>
-                        <li>Bulnes 1431, CABA, Buenos Aires</li>
-                    </ul>
-                </div>
-                <div class="col-md-2 mx-auto">
-                    <h5 class="title mb-4 mt-3 font-bold">CONTÁCTANOS</h5>
-                    <ul class="lista_ico">
-                        <li><i class="fab fa-facebook fa-3x"></i></li>
-                        <li><i class="fab fa-instagram fa-3x"></i></li>
-                        <li><i class="fab fa-whatsapp fa-3x"></i></li>
-                    </ul>
-                </div>
-                <div class="col-md-2 mx-auto">
-                    <h5 class="title mb-4 mt-3 font-bold ">ACEPTAMOS</h5>
-                    <ul class="lista_ico">
-                        <li><i class="fab fa-cc-visa fa-3x"></i></li>
-                        <li><i class="fab fa-cc-amex fa-3x"></i></li>
-                        <li><i class="fab fa-cc-mastercard fa-3x"></i></li>
-                    </ul>
-                </div>
-            </div>
+            <h5 class="mb-4 mt-3">ENCONTRANOS</h5>
+            <ul class="lista_ico">
+                <li><a href="#"><img src="../img/fb4.png" alt="fb4"></a></li>
+                <li><a href="#"><img src="../img/ig4.png" alt="ig4"></a></li>
+                <li><a href="#"><img src="../img/wp4.png" alt="wp4"></a></li>
+                <li><a href="#"><img src="../img/ld4.png" alt="ld4"></a></li>
+                <li><a href="#"><img src="../img/tw4.png" alt="tw4"></a></li>
+            </ul>
         </div>
         <hr>
-        <div id="derechos">
+        <div class="derechos">
             <p>&copy; 2021 All Rights Reserved &reg; Howard's Services & Co.</p>
         </div>
     </footer>

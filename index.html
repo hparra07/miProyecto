@@ -21,25 +21,25 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/about.html" id="ninguno"><img src="./img/flight.png" alt="vuelos" height="40px"> VUELOS</a>
+                        <a class="ninguno" href="./pages/flights.html"><img src="./img/flight.png" alt="vuelos" height="40px"> VUELOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/products.html" id="ninguno"> <img src="./img/package.png" alt="" height="40px"> PAQUETES</a>
+                        <a class="ninguno" href="./pages/packs.html"> <img src="./img/package.png" alt="" height="40px"> PAQUETES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="./pages/promotions.html" id="ninguno"><img src="./img/cars.png" alt="" height="40px"> AUTOS</a>
+                        <a class="ninguno " href="./pages/cars.html"><img src="./img/cars.png" alt="" height="40px"> AUTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/help.html" id="ninguno"><img src="./img/help.png" alt="" height="40px"> AYUDA</a>
+                        <a class="ninguno" href="./pages/help.html"><img src="./img/help.png" alt="" height="40px"> AYUDA</a>
                     </li>
                 </ul>
                 <section class="d-flex">
                     <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll"> 
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/help.html" id="ninguno"><img src="./img/purchase.png" alt="" height="40px"> TU COMPRA</a>
+                            <a class="ninguno" href="./pages/cart.html"><img src="./img/purchase.png" alt="" height="40px"> TU COMPRA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/help.html" id="ninguno"><img src="./img/login.png" alt="" height="40px"> INICIA SESION</a>
+                            <a class="ninguno" href="./pages/signIn.html"><img src="./img/login.png" alt="" height="40px"> INICIA SESION</a>
                         </li>
                     </ul>
                 </section>
@@ -50,14 +50,16 @@
         <div class="search-container">
             <div class="search">
                 <h1>Buscá. Reservá. Viajá.</h1>
-                <div class="types">
-                    <label for="ida">Ida</label>
-                        <input type="radio" name="ida" id="ida">
-                    <label for="ida-vuelta">Ida y Vuelta</label>
-                        <input type="radio" name="ida-vuelta" id="ida-vuelta">
-                    <label for="multidestinos">Multidestinos</label>
-                    <input type="radio" name="multidestinos" id="multidestinos">
-                </div>
+                <form>
+                    <div class="types">
+                      <input type="radio" id="ida" name="type-of-travel" value="ida">
+                            <label for="ida">Ida</label>
+                      <input type="radio" id="ida-vuelta" name="type-of-travel" value="ida-vuelta">
+                            <label for="ida-vuelta">Ida y Vuelta</label>
+                      <input type="radio" id="multidestinos" name="type-of-travel" value="multidestinos">
+                            <label for="multidestinos">Multidestinos</label>
+                    </div>
+                </form>
                 <div class="form">
                     <form class="needs-validation" validate>
                         <div class="search-form">
@@ -82,8 +84,8 @@
                                 <input type="number" class="form-control input-form" id="Pasajeros" placeholder="Ingresa cantidad" value="1" required>
                             </div>
                             <div class="div6 mb-3">
-                                <label for="Destino">Clase</label>
-                                <input type="text" class="form-control input-form" id="destino" placeholder="Ej: Business" value="" required>
+                                <label for="clase">Clase</label>
+                                <input type="text" class="form-control input-form" id="clase" placeholder="Ej: Business" value="" required>
                             </div>
                             <div class="div7 mb-3">
                                 <button type="button" class="btn btn-dark">Buscar</button>
@@ -193,13 +195,13 @@
         <section class="suscribe-form">
               <form>
                   <div>
-                      <label for="suscribite">Recibí ofertas exclusivas en tu mail</label>
+                      <label for="suscribite">Ofertas exclusivas en tu mail</label>
                       <input type="mail" placeholder="Ingresa tu mail" required>
                       <button type="submit" class="btn btn-outline-dark">Suscribirme</button>
                   </div>
-                 <!--  <div>
+                  <div>
                       <p>Recibí de primera mano nuestras ofertas y beneficios exclusivos.</p>
-                  </div> -->
+                  </div>
               </form>
         </section>
     </main>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiPrimerProyecto | Promociones</title>
+    <meta name="description" content="Tenemos frutas, verduras y productos orgánicos preparados especialmente para vos, de primera calidad, además contamos con delivery y si te registrás, tenés un 10% OFF en tu primera compra">
+    <meta name="keywords" content="VERDURAS, FRUTAS, COMPRA, PROMOCIONES, BANCOS, TARJETAS">
+    <link rel="shorcut icon" href="../img/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark" id="menu">
+            <a href="../index.html" class="navbar-brand"><img src="../img/descarga.png" alt="logo" height="80px"></img></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="ninguno" href="./flights.html"><img src="../img/flight.png" alt="vuelos" height="40px"> VUELOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="ninguno" href="./packs.html"> <img src="../img/package.png" alt="" height="40px"> PAQUETES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="ninguno " href="./cars.html"><img src="../img/cars.png" alt="" height="40px"> AUTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="ninguno" href="./help.html"><img src="../img/help.png" alt="" height="40px"> AYUDA</a>
+                    </li>
+                </ul>
+                <section class="d-flex">
+                    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll"> 
+                        <li class="nav-item">
+                            <a class="ninguno" href="./cart.html"><img src="../img/purchase.png" alt="" height="40px"> TU COMPRA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="ninguno" href="./signIn.html"><img src="../img/login.png" alt="" height="40px"> INICIA SESION</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <div class="search-container">
+            <div class="search">
+                <h1>Buscá. Reservá. Viajá.</h1>
+                <div class="form">
+                    <form class="needs-validation" validate>
+                        <div class="search-form">
+                            <div class="div1 mb-3">
+                                <label for="retiro">Retiro</label>
+                                <input type="text" class="form-control input-form" id="retiro" placeholder="Lugar de retiro" value="" required>
+                            </div>
+                            <div class="div2 mb-3">
+                                <label for="Partida">Fecha de inicio</label>
+                                <input type="date" class="form-control input-form" id="partida" value="" required>
+                            </div>
+                            <div class="div3 mb-3">
+                                <label for="Hora-inicio">Hora</label>
+                                <input type="time" class="form-control input-form" id="Hora-inicio" placeholder="Ingresa cantidad" value="1" required>
+                            </div>
+                            <div class="div4 mb-3">
+                                <label for="Regreso">Fecha de fin</label>
+                                <input type="date" class="form-control input-form" id="regreso" value="" required>
+                            </div>
+                            <div class="div5 mb-3">
+                                <label for="Hora-fin">Hora</label>
+                                <input type="time" class="form-control input-form" id="Hora-fin" placeholder="Ingresa cantidad" value="1" required>
+                            </div>
+                            <div class="div7 mb-3">
+                                <button type="button" class="btn btn-dark">Buscar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="album py-5 bg-light">
+            <h2 class="mb-5">Estos son los autos perfectos para vos!</h2>
+            <div class="container mb-5">
+                <div class="packs">
+                    <div class="pack1">
+                        <img src="../img/clio.png" alt="" width="300px" height="200px">
+                    </div>
+                    <div class="pack2">
+                        <h3>Renault - Clio</h3>
+                        <p>5 personas, 2 Valijas, A/C, Manual, KM Ilimitado</p>
+                        <small class="text-muted">Cancelación gratis hasta 24hs antes del retiro</small>
+                        <small class="text-muted">Cobertura por daño y robo con franquicia de ARS 100000.</small>
+                        <small class="text-muted">Seguro de responsabilidad civil</small>
+                    </div>
+                    <div class="pack3">
+                        <h6>Precio final por día</h6>
+                        <p>ARS 8263.00</p>
+                        <small class="text-muted">Precio final por 7 días ARS 57841.00</small>
+                        <button type="button" class="btn btn-outline-info">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container mb-5">
+                <div class="packs">
+                    <div class="pack1">
+                        <img src="../img/march.png" alt="" width="300px" height="200px">
+                    </div>
+                    <div class="pack2">
+                        <h3>Nissan - March</h3>
+                        <p>4 personas, 1 Valija, A/C, Manual, KM Ilimitado</p>
+                        <small class="text-muted">Cancelación gratis hasta 24hs antes del retiro</small>
+                        <small class="text-muted">Cobertura por daño y robo con franquicia de ARS 350000.</small>
+                        <small class="text-muted">Seguro de responsabilidad civil</small>
+                    </div>
+                    <div class="pack3">
+                        <h6>Precio final por día</h6>
+                        <p>ARS 10559.00</p>
+                        <small class="text-muted">Precio final por 7 días ARS 73913.00</small>
+                        <button type="button" class="btn btn-outline-info">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container mb-5">
+                <div class="packs">
+                    <div class="pack1">
+                        <img src="../img/onix.png" alt="" width="300px" height="200px">
+                    </div>
+                    <div class="pack2">
+                        <h3>Chevrolet - Onix</h3>
+                        <p>5 personas, 2 Valijas, A/C, Manual, KM Ilimitado</p>
+                        <small class="text-muted">Cancelación gratis hasta 24hs antes del retiro</small>
+                        <small class="text-muted">Cobertura por daño y robo con franquicia de ARS 350000.</small>
+                        <small class="text-muted">Seguro de responsabilidad civil</small>
+                    </div>
+                    <div class="pack3">
+                        <h6>Precio final por día</h6>
+                        <p>ARS 10.559</p>
+                        <small class="text-muted">Precio final por 7 días ARS 73913.00</small>
+                        <button type="button" class="btn btn-outline-info">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <h5 class="mb-4 mt-3">ENCONTRANOS</h5>
+            <ul class="lista_ico">
+                <li><a href="#"><img src="../img/fb4.png" alt="fb4"></a></li>
+                <li><a href="#"><img src="../img/ig4.png" alt="ig4"></a></li>
+                <li><a href="#"><img src="../img/wp4.png" alt="wp4"></a></li>
+                <li><a href="#"><img src="../img/ld4.png" alt="ld4"></a></li>
+                <li><a href="#"><img src="../img/tw4.png" alt="tw4"></a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="derechos">
+            <p>&copy; 2021 All Rights Reserved &reg; Howard's Services & Co.</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a0d6ad12f7.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+
+</html>

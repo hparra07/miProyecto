@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiPrimerProyecto | Nosotros</title>
+    <meta name="description" content="Tenemos frutas, verduras y productos orgánicos preparados especialmente para vos, de primera calidad, además contamos con delivery y si te registrás, tenés un 10% OFF en tu primera compra">
+    <meta name="keywords" content="VERDURAS, FRUTAS, COMPRA, EMPRESA, NOSOTROS">
+    <link rel="shorcut icon" href="../img/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark" id="menu">
+            <a href="../index.html" class="navbar-brand"><img src="../img/descarga.png" alt="logo" height="80px"></img></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="ninguno" href="./flights.html"><img src="../img/flight.png" alt="vuelos" height="40px"> VUELOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="ninguno" href="./packs.html"> <img src="../img/package.png" alt="" height="40px"> PAQUETES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="ninguno " href="./cars.html"><img src="../img/cars.png" alt="" height="40px"> AUTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="ninguno" href="./help.html"><img src="../img/help.png" alt="" height="40px"> AYUDA</a>
+                    </li>
+                </ul>
+                <section class="d-flex">
+                    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll"> 
+                        <li class="nav-item">
+                            <a class="ninguno" href="./cart.html"><img src="../img/purchase.png" alt="" height="40px"> TU COMPRA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="ninguno" href="./signIn.html"><img src="../img/login.png" alt="" height="40px"> INICIA SESION</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <div class="search-container">
+            <div class="search">
+                <h1>Buscá. Reservá. Viajá.</h1>
+                <form>
+                    <div class="types">
+                      <input type="radio" id="ida" name="type-of-travel" value="ida">
+                            <label for="ida">Ida</label>
+                      <input type="radio" id="ida-vuelta" name="type-of-travel" value="ida-vuelta">
+                            <label for="ida-vuelta">Ida y Vuelta</label>
+                      <input type="radio" id="multidestinos" name="type-of-travel" value="multidestinos">
+                            <label for="multidestinos">Multidestinos</label>
+                    </div>
+                </form>
+                <div class="form">
+                    <form class="needs-validation" validate>
+                        <div class="search-form">
+                            <div class="div1 mb-3">
+                                <label for="Origen">Origen</label>
+                                <input type="text" class="form-control input-form" id="origen" placeholder="Desde donde" value="" required>
+                            </div>
+                            <div class="div2 mb-3">
+                                <label for="Destino">Destino</label>
+                                <input type="text" class="form-control input-form" id="destino" placeholder="Hacia donde" value="" required>
+                            </div>
+                            <div class="div3 mb-3">
+                                <label for="Partida">Partida</label>
+                                <input type="date" class="form-control input-form" id="partida" value="" required>
+                            </div>
+                            <div class="div4 mb-3">
+                                <label for="Regreso">Regreso</label>
+                                <input type="date" class="form-control input-form" id="regreso" value="" required>
+                            </div>
+                            <div class="div5 mb-3">
+                                <label for="Pasajeros">Pasajeros</label>
+                                <input type="number" class="form-control input-form" id="Pasajeros" placeholder="Ingresa cantidad" value="1" required>
+                            </div>
+                            <div class="div6 mb-3">
+                                <label for="clase">Clase</label>
+                                <input type="text" class="form-control input-form" id="clase" placeholder="Ej: Business" value="" required>
+                            </div>
+                            <div class="div7 mb-3">
+                                <button type="button" class="btn btn-dark">Buscar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="album py-5 bg-light">
+            <h2 class="mb-3">Vuelos nacionales</h2>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../img/mdq.jpg" alt="Mar del plata" width="100%" height="225" focusable="false">
+                                <title>Mar del Plata</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+                            <div class="card-body">
+                                <p class="card-text">Desde Buenos Aires a <strong style="color: #0096c7;">Mar del Plata</strong></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info">Desde</button>
+                                    <button type="button" class="btn btn-sm btn-outline-info">ARS 8237.00</button>
+                                  </div>
+                                  <small class="text-muted">Clase Economy</small>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../img/fte.jpg" alt="El Calafate" width="100%" height="225" focusable="false">
+                                <title>El Calafate</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+                            <div class="card-body">
+                                <p class="card-text">Desde Buenos Aires a <strong style="color: #0096c7;">El Calafate</strong></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info">Desde</button>
+                                    <button type="button" class="btn btn-sm btn-outline-info">ARS 10272.00</button>
+                                  </div>
+                                  <small class="text-muted">Clase Economy</small>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../img/cor.jpeg" alt="Córdoba" width="100%" height="225" focusable="false">
+                                <title>Córdoba</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+                            <div class="card-body">
+                                <p class="card-text">Desde Buenos Aires a <strong style="color: #0096c7;">Córdoba</strong></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info">Desde</button>
+                                    <button type="button" class="btn btn-sm btn-outline-info">ARS 9567.00</button>
+                                  </div>
+                                  <small class="text-muted">Clase Economy</small>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="album py-2 bg-light">
+            <h2 class="mb-3">Vuelos regionales</h2>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../img/sao.jpg" alt="San Pablo" width="100%" height="225" focusable="false">
+                                <title>San Pablo</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+                            <div class="card-body">
+                                <p class="card-text">Desde Buenos Aires a <strong style="color: #0096c7;">San Pablo</strong></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info">Desde</button>
+                                    <button type="button" class="btn btn-sm btn-outline-info">ARS 55930.00</button>
+                                  </div>
+                                  <small class="text-muted">Clase Economy</small>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../img/lim.jpg" alt="Lima" width="100%" height="225" focusable="false">
+                                <title>Lima</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+                            <div class="card-body">
+                                <p class="card-text">Desde Buenos Aires a <strong style="color: #0096c7;">Lima</strong></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info">Desde</button>
+                                    <button type="button" class="btn btn-sm btn-outline-info">ARS 43897.00</button>
+                                  </div>
+                                  <small class="text-muted">Clase Economy</small>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../img/scl.jpg" alt="Santiago de Chile" width="100%" height="225" focusable="false">
+                                <title>Santiago de Chile</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+                            <div class="card-body">
+                                <p class="card-text">Desde Buenos Aires a <strong style="color: #0096c7;">Santiago de Chile</strong></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info">Desde</button>
+                                    <button type="button" class="btn btn-sm btn-outline-info">ARS 27037.00</button>
+                                  </div>
+                                  <small class="text-muted">Clase Economy</small>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="album py-5 bg-light">
+            <h2 class="mb-3">Vuelos internacionales</h2>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../img/nyc.jpg" alt="Nueva York" width="100%" height="225" focusable="false">
+                                <title>Nueva York</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+                            <div class="card-body">
+                                <p class="card-text">Desde Buenos Aires a <strong style="color: #0096c7;">Nueva York</strong></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info">Desde</button>
+                                    <button type="button" class="btn btn-sm btn-outline-info">ARS 131669.00</button>
+                                  </div>
+                                  <small class="text-muted">Clase Economy</small>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../img/bog.jpg" alt="Bogotá" width="100%" height="225" focusable="false">
+                                <title>Bogotá</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+                            <div class="card-body">
+                                <p class="card-text">Desde Buenos Aires a <strong style="color: #0096c7;">Bogotá</strong></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info">Desde</button>
+                                    <button type="button" class="btn btn-sm btn-outline-info">ARS 127007.00</button>
+                                  </div>
+                                  <small class="text-muted">Clase Economy</small>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../img/puj.jpg" alt="Punta Cana" width="100%" height="225" focusable="false">
+                                <title>Punta Cana</title>
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+                            <div class="card-body">
+                                <p class="card-text">Desde Buenos Aires a <strong style="color: #0096c7;">Punta Cana</strong></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info">Desde</button>
+                                    <button type="button" class="btn btn-sm btn-outline-info">ARS 117553.00</button>
+                                  </div>
+                                  <small class="text-muted">Clase Economy</small>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <h5 class="mb-4 mt-3">ENCONTRANOS</h5>
+            <ul class="lista_ico">
+                <li><a href="#"><img src="../img/fb4.png" alt="fb4"></a></li>
+                <li><a href="#"><img src="../img/ig4.png" alt="ig4"></a></li>
+                <li><a href="#"><img src="../img/wp4.png" alt="wp4"></a></li>
+                <li><a href="#"><img src="../img/ld4.png" alt="ld4"></a></li>
+                <li><a href="#"><img src="../img/tw4.png" alt="tw4"></a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="derechos">
+            <p>&copy; 2021 All Rights Reserved &reg; Howard's Services & Co.</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a0d6ad12f7.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+
+</html>
