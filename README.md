@@ -13,7 +13,7 @@ HTML es un lenguaje de marcado de etiquetas que se utiliza para el desarrollo de
 [HTML](https://www.w3schools.com/html/) ***sitio no oficial***.
 
 ### CSS
-CSS son las siglas en inglés para «hojas de estilo en cascada» (Cascading Style Sheets). Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de las páginas.
+CSS son las siglas en inglés para "hojas de estilo en cascada", en inglés, Cascading Style Sheets. Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de las páginas.
 
 [CSS](https://www.w3schools.com/css/) ***sitio no oficial***.
 
@@ -45,12 +45,12 @@ $ npm run watch-css
 ```
 
 ### Bootstrap
-Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web. Se decidio utilizarla en el proyecto ya que ayudaria a obtener un diseño Responsive y moderno sin demasiadas complicaciones.
+Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web. Se decidió utilizarla en el proyecto ya que ayudaría a obtener un diseño Responsive y moderno sin demasiadas complicaciones.
 
 [Bootstrap](https://getbootstrap.com/)
 
 ### Desarrollo
 
-Desarrollado por [Howard Parra](https://github.com/hparra07) para el curso de Desarrollo Web en [Coderhouse](https://www.coderhouse.com/)
+Desarrollado por [Howard Parra](https://github.com/hparra07) para el curso de Desarrollo Web en [Coderhouse](https://www.coderhouse.com/).
 
-Puedes visitar VIAJAJA en este [link](https://hparra07.github.io/miProyecto/) 
+Puedes visitar VIAJAJA en este [link](https://hparra07.github.io/miProyecto/).
