@@ -22,7 +22,7 @@ Sass es un preprocesador de CSS que permite generar de manera automática hojas 
 
 [SASS](https://sass-lang.com/)
 
-### Instalacion
+### Instalación
 Se requiere Node.js v14.15+ para comenzar con el procedimiento.
 
 Instalar dependencias:
@@ -52,3 +52,5 @@ Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de códig
 ### Desarrollo
 
 Desarrollado por [Howard Parra](https://github.com/hparra07) para el curso de Desarrollo Web en [Coderhouse](https://www.coderhouse.com/)
+
+Puedes visitar VIAJAJA en este [link](https://hparra07.github.io/miProyecto/) 
