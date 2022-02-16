@@ -42,7 +42,7 @@ blockquote {
 /* ----- TITULOS ----- */
 
 body{
-    font-family: Century Gothic;
+    font-family: Century Gothic, sans-serif;
     height: 100vh;
 }
 
