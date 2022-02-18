@@ -1,0 +1,416 @@
+@import "./font.scss";
+@import "./colors.scss";
+
+/* RESET*/
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+pre,
+code,
+address,
+form,
+fieldset,
+blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+body{
+    font-family: $font;
+    height: 100vh;
+}
+
+/* ---------------------- BODY ---------------------- */
+
+h1 {
+    color: $blue-primary;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+h2{
+    color: $blue-primary;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+h3{
+    color: $blue-primary;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+}
+
+h6 {
+    color: $blue-primary;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: $black;
+    font-size: 15px;
+}
+
+/* ---------------------- MENU ---------------------- */
+
+.ninguno {
+    color: $black;
+    display: inline-block;
+    margin: 5px;
+    &:hover{
+    text-decoration: none;
+    color: $white;
+    }
+}
+
+#menu {
+    background-color: $blue-secondary;
+}
+
+/* ---------------------- FOOTER ---------------------- */
+
+footer {
+    background-color: $light-gray;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.lista_ico {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.derechos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item img{
+    border-radius: 3%;
+    width: 100%;
+    height: 100%;
+}
+
+.centrar{
+    ul{
+        li{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-top: 30px;
+        }
+    }
+}
+
+/* ---------------------- INDEX ---------------------- */
+
+.first {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;  
+    margin-top: 20px;
+}
+
+.div1-first{ 
+    grid-area: 1 / 1 / 2 / 2;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div2-first{ 
+    grid-area: 1 / 2 / 2 / 3;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 30px;
+    color: $white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.search-container{
+    height: 280px;
+    padding: 25px 0;
+    border-top: solid 1px $medium-gray;
+    background-size: 68%, auto;
+    background-image: linear-gradient(0, $light-blue 0%, $light-blue 100%);
+}
+
+.search{
+    padding: 24px 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 220px;
+    border-radius: 8px;
+    background-color: #0096c7;
+    box-shadow: 0 4px 8px $boxshadow;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.types{
+    margin-left: 50px;
+    padding-top: 3px;
+    input{
+        cursor: pointer;
+    }
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-form{
+    width: 166px;
+    font-size: 15px;
+    overflow: hidden;
+    box-shadow:$boxshadow 0px 2px 10px 0px;
+}
+
+.search-form {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div1{ 
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.div2{ 
+    grid-area: 1 / 2 / 2 / 3; 
+}
+
+.div3{ 
+    grid-area: 1 / 3 / 2 / 4; 
+}
+
+.div4{ 
+    grid-area: 1 / 4 / 2 / 5; 
+}
+
+.div5{ 
+    grid-area: 1 / 5 / 2 / 6; 
+}
+
+.div6{ 
+    grid-area: 1 / 6 / 2 / 7;
+}
+
+.div7{ 
+    grid-area: 1 / 7 / 2 / 8; 
+    padding-top: 31px; 
+}
+
+.section-two{
+    background: $light-gray;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.promotions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.div1-promotions{ 
+    grid-area: 1 / 1 / 2 / 2; 
+    cursor: pointer;
+    img{
+        box-shadow: 0 4px 8px $boxshadow-two;
+        border-radius: 25px;
+    }
+}
+
+.div2-promotions{ 
+    grid-area: 1 / 2 / 2 / 3;
+    cursor: pointer;
+    img{
+        box-shadow: 0 4px 8px $boxshadow-two;
+        border-radius: 25px;
+    }
+}
+
+.div3-promotions{
+    grid-area: 1 / 3 / 2 / 4;
+    cursor: pointer; 
+    img{
+        box-shadow: 0 4px 8px $boxshadow-two;
+        border-radius: 25px;
+    }
+}
+
+.suscribe-form{
+    display: flex;
+    justify-content: flex-end;
+    background: $little-blue;
+    padding: 25px;
+    margin-top: 50px;
+    input{
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: $dark-gray;
+        background-color: $white;
+        border: 1px solid $border-input;
+        border-radius: 0.25rem;
+    }
+}
+
+/* ---------------------- PACKS ---------------------- */
+
+.packs{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    border: 2px solid $back;
+    background: $back;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px $boxshadow-two;
+}
+    
+.pack1{ 
+    grid-area: 1 / 1 / 2 / 2; 
+    img{
+        border-radius: 5px;  
+    }
+}
+
+.pack2{ 
+    grid-area: 1 / 2 / 2 / 4; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.pack3{ 
+    grid-area: 1 / 4 / 2 / 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+/* ---------------------- HELP ---------------------- */
+
+.search-container-help{
+    height: 150px;
+    padding: 10px 0;
+    border-top: solid 1px $medium-gray;
+    background-size: 68%, auto;
+    background-image: linear-gradient(0, $light-blue 0%, $light-blue 100%);
+}
+
+.search-help{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: $blue-secondary;
+    box-shadow: 0 4px 8px $boxshadow;
+    box-sizing: border-box;
+    h1{
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    input{
+        display: inline-block;
+        width: 600px;
+    }
+}
+
+.card{
+    cursor: pointer;
+}
+
+/* ---------------------- BANNER ---------------------- */
+
+.banner{
+    height: 150px;
+    padding: 10px 0;
+    border-top: solid 1px $medium-gray;
+    background-size: 68%, auto;
+    background-image: linear-gradient(0, $light-blue 0%, $light-blue 100%);
+}
+
+.bar-banner{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: $blue-secondary;
+    box-shadow: 0 4px 8px $boxshadow;
+    box-sizing: border-box;
+    h1{
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+}
+
+@import "./responsive.scss";
