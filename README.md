@@ -1,4 +1,4 @@
-# Proyecto VIAJAJA
+# Proyecto VIAJAJA :airplane:
 
 Es una página web estática (por ahora) en el que simula ser una agencia de viajes virtual donde podrás navegar entre las diferentes secciones y está desarrollada con:
 
